@@ -18,7 +18,7 @@ const Index = () => {
             <h1 className="text-5xl font-bold text-foreground tracking-tight md:text-6xl">
               Welcome to <span className="text-primary">Fantas</span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">Our platform makes it effortless to connect customers with trusted providers. A digital town-centre for &quot;all things, services.&quot;</p>
+            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">Our platform makes it effortless to connect customers with trusted service-providers. A seamless digital town-centre for "all things, services."</p>
           </div>
         </div>
 
