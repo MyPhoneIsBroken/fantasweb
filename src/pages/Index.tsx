@@ -15,10 +15,10 @@ const Index = () => {
         <div className="mb-12 animate-fade-in">
           <img src="/lovable-uploads/deb8b299-1216-4351-bcc1-496010b5eb0f.png" alt="Fantas Logo" className="w-64 h-auto mx-auto mb-8 drop-shadow-2xl" />
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold text-foreground tracking-tight">
+            <h1 className="text-5xl font-bold text-foreground tracking-tight md:text-6xl">
               Welcome to <span className="text-primary">Fantas</span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">Our platform makes it effortless to connect customers with trusted service providers. The seamless digital town-centre for &quot;all things, services.&quot;</p>
+            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">Our platform makes it effortless to connect customers with trusted providers. A digital town-centre for &quot;all things, services.&quot;</p>
           </div>
         </div>
 
@@ -35,24 +35,24 @@ const Index = () => {
               <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <div className="w-6 h-6 bg-primary rounded-full" />
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Connect Quickly</h3>
-              <p className="text-muted-foreground text-sm">Have a Browse - find what's best for you.</p>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Fast & Reliable</h3>
+              <p className="text-muted-foreground text-sm">Lightning-fast performance with rock-solid reliability you can trust.</p>
             </div>
             
             <div className="bg-card/20 backdrop-blur-sm border border-primary/20 rounded-lg p-6 hover:border-primary/40 transition-all duration-300 hover:shadow-glow">
               <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <div className="w-6 h-6 bg-primary rounded-full" />
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Connect Quickly</h3>
-              <p className="text-muted-foreground text-sm">Lightning-fast link-ups with all service professionals in your area.</p>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Intuitive Design</h3>
+              <p className="text-muted-foreground text-sm">Beautifully crafted interface that feels natural and effortless to use.</p>
             </div>
             
             <div className="bg-card/20 backdrop-blur-sm border border-primary/20 rounded-lg p-6 hover:border-primary/40 transition-all duration-300 hover:shadow-glow">
               <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4 mx-auto">
                 <div className="w-6 h-6 bg-primary rounded-full" />
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Secure Fast</h3>
-              <p className="text-muted-foreground text-sm">Choose to Chat - Call - Request a Quote - at absolutely 0 cost.</p>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Secure</h3>
+              <p className="text-muted-foreground text-sm">Your data is protected with industry-leading security measures.</p>
             </div>
           </div>
         </div>
