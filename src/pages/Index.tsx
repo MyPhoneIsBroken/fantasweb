@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 // Using the uploaded logo directly
 
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-hero relative overflow-hidden">
+  return <div className="min-h-screen bg-gradient-hero relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-pulse" />
@@ -14,18 +13,12 @@ const Index = () => {
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 text-center">
         {/* Logo Section */}
         <div className="mb-12 animate-fade-in">
-          <img 
-            src="/lovable-uploads/deb8b299-1216-4351-bcc1-496010b5eb0f.png" 
-            alt="Fantas Logo" 
-            className="w-64 h-auto mx-auto mb-8 drop-shadow-2xl"
-          />
+          <img src="/lovable-uploads/deb8b299-1216-4351-bcc1-496010b5eb0f.png" alt="Fantas Logo" className="w-64 h-auto mx-auto mb-8 drop-shadow-2xl" />
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold text-foreground tracking-tight">
               Welcome to <span className="text-primary">Fantas</span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Experience the next generation of mobile innovation. Download now and discover what makes Fantas extraordinary.
-            </p>
+            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">Our platform makes it effortless to connect customers with trusted providers. A digital town-centre for &quot;all things, services.&quot;</p>
           </div>
         </div>
 
@@ -66,23 +59,15 @@ const Index = () => {
 
         {/* Legal Links */}
         <div className="flex gap-6 text-sm text-muted-foreground animate-fade-in-up delay-300">
-          <Link 
-            to="/terms" 
-            className="hover:text-primary transition-colors underline decoration-primary/30 hover:decoration-primary"
-          >
+          <Link to="/terms" className="hover:text-primary transition-colors underline decoration-primary/30 hover:decoration-primary">
             Terms and Conditions
           </Link>
           <span>•</span>
-          <Link 
-            to="/privacy" 
-            className="hover:text-primary transition-colors underline decoration-primary/30 hover:decoration-primary"
-          >
+          <Link to="/privacy" className="hover:text-primary transition-colors underline decoration-primary/30 hover:decoration-primary">
             Privacy Policy
           </Link>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
