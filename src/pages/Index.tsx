@@ -58,7 +58,7 @@ const Index = () => {
         </div>
 
         {/* Legal Links */}
-        <div className="flex gap-6 text-sm text-muted-foreground animate-fade-in-up delay-300">
+        <div className="flex gap-6 text-sm text-muted-foreground animate-fade-in-up delay-300 py-[15px]">
           <Link to="/terms" className="hover:text-primary transition-colors underline decoration-primary/30 hover:decoration-primary">
             Terms and Conditions
           </Link>
