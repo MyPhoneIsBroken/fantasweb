@@ -28,34 +28,6 @@ const Index = () => {
           <DownloadButton platform="android" />
         </div>
 
-        {/* Features Preview */}
-        <div className="max-w-4xl mx-auto mb-16 animate-fade-in-up delay-200">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-card/20 backdrop-blur-sm border border-primary/20 rounded-lg p-6 hover:border-primary/40 transition-all duration-300 hover:shadow-glow">
-              <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4 mx-auto">
-                <div className="w-6 h-6 bg-primary rounded-full" />
-              </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Explore the Area</h3>
-              <p className="text-muted-foreground text-sm">Have a Browse and find all service professionals in your vicinity, instantly!</p>
-            </div>
-            
-            <div className="bg-card/20 backdrop-blur-sm border border-primary/20 rounded-lg p-6 hover:border-primary/40 transition-all duration-300 hover:shadow-glow">
-              <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4 mx-auto">
-                <div className="w-6 h-6 bg-primary rounded-full" />
-              </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Connect Quickly</h3>
-              <p className="text-muted-foreground text-sm">Any Professional - Anywhere -  Anytime.</p>
-            </div>
-            
-            <div className="bg-card/20 backdrop-blur-sm border border-primary/20 rounded-lg p-6 hover:border-primary/40 transition-all duration-300 hover:shadow-glow">
-              <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4 mx-auto">
-                <div className="w-6 h-6 bg-primary rounded-full" />
-              </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Secure & Move on</h3>
-              <p className="text-muted-foreground text-sm">Have a Chat, Call, or Request a Quote - at absolutely 0 cost.</p>
-            </div>
-          </div>
-        </div>
 
         {/* Legal Links */}
         <div className="flex gap-6 text-sm text-muted-foreground animate-fade-in-up delay-300 py-[15px]">
