@@ -1,6 +1,5 @@
 import { DownloadButton } from "@/components/DownloadButton";
 import { Link } from "react-router-dom";
-// Using the uploaded logo directly
 
 const Index = () => {
   return <div className="min-h-screen bg-gradient-hero relative overflow-hidden">
@@ -13,7 +12,7 @@ const Index = () => {
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 text-center">
         {/* Logo Section */}
         <div className="mb-12 animate-fade-in">
-          <img src="/lovable-uploads/deb8b299-1216-4351-bcc1-496010b5eb0f.png" alt="Fantas Logo" className="w-64 h-auto mx-auto mb-8 drop-shadow-2xl" />
+          <img src="/images/logo.png" alt="Fantas Logo" className="w-64 h-auto mx-auto mb-8 drop-shadow-2xl" />
           <div className="space-y-4">
             <h1 className="text-5xl font-bold text-foreground tracking-tight">
               Welcome to <span className="text-primary">Fantas</span>
