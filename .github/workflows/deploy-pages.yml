@@ -45,6 +45,12 @@ jobs:
       - name: Add help route
         run: mkdir -p dist/help && cp dist/index.html dist/help/index.html
 
+      - name: Add terms route
+        run: mkdir -p dist/terms && cp dist/index.html dist/terms/index.html
+
+      - name: Add privacy route
+        run: mkdir -p dist/privacy && cp dist/index.html dist/privacy/index.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
